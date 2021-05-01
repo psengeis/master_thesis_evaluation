@@ -4,14 +4,12 @@ This program is the program used for evaluating my master thesis "Extend automat
 
 The thesis is focused on creating an end-to-end method for finding document sections bases on reference documents and extracting it's signatures and stamps. Those extraced signatures are compared afterwards, to evaluate whether the signature is created by the same person. While the section detection works in 98% of the time and the signature detection is working acceptable, the signature comparison afterwards seems to be the most tricky part. A siamese network was used for evaluating the distance between them, but the area under the ROC curve achieves only 0.37.
 
-To test it on a custom documents place the following documents into the "_input_thesis":
+Unfortunately I am not allowed to provide the models for detecting signatures, stamps or identification documents. To test it with custom models, add your models in a new folder "_models". Also place custom documents place for each evaluation group the following documents into the "_input_thesis" within a subfolder:
 * request.pdf
 * request_gen.pdf
 * billing.pdf
 * billing_gen.pdf
 * reference_1.pdf
-
-
 
 Special thanks to [Nicolas Dutly](https://github.com/Jumpst3r) for his program and provided models for [printed and handwriting segmentation](https://github.com/Jumpst3r/printed-hw-segmentation).
 
