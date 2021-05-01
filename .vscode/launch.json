@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Evaluation 0",
+            "type": "python",
+            "request": "launch",
+            "program": "0_preprocess/evaluation.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Evaluation 1",
+            "type": "python",
+            "request": "launch",
+            "program": "1_find_section/evaluation.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Evaluation 2",
+            "type": "python",
+            "request": "launch",
+            "program": "2_object_detection/evaluation.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Evaluation 3",
+            "type": "python",
+            "request": "launch",
+            "program": "3_extract_hw/evaluation.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Evaluation 4",
+            "type": "python",
+            "request": "launch",
+            "program": "4_compare_sign/evaluation.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
