@@ -11,7 +11,7 @@ Unfortunately I am not allowed to provide the models for detecting signatures, s
 * billing_gen.pdf
 * reference_1.pdf
 
-Special thanks to [Nicolas Dutly](https://github.com/Jumpst3r) for publishing his program and provided models for [printed and handwriting segmentation](https://github.com/Jumpst3r/printed-hw-segmentation), which were tested for signature extraction.
+Special thanks to [Nicolas Dutly](https://github.com/Jumpst3r) for publishing his program and provided models for [printed and handwriting segmentation](https://github.com/Jumpst3r/printed-hw-segmentation), which was tested for signature extraction.
 
 ```
 @article{Dutly2019PHTIWSAP,
